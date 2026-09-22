@@ -14,15 +14,15 @@ var lyricsData = [
   { text: "Strawberry champagne on ice", time: 182 },
   { text: "Lucky for you,That's what I like.", time: 184 },
   { text: "That's what I like.", time: 186 },
-  { text: "Lucky for you,That's what I like.", time: 189 },
+  { text: "Lucky for you,That's what I like.", time: 188 },
   { text: "That's what I like.", time: 190 },
   { text: "Sex by the fire at night", time: 193 },
-  { text: "Silk sheets and diamonds all white", time: 198 },
-  { text: "Sex by the fire at night", time: 195 },
+  { text: "Silk sheets and diamonds all white", time: 195 },
+  { text: "Sex by the fire at night", time: 197 },
   { text: "Lucky for you,That's what I like.", time: 199 },
-  { text: "That's what I like.", time: 205 },
-  { text: "Lucky for you,That's what I like.", time: 210 },
-  { text: "That's what I like.", time: 215 },
+  { text: "That's what I like.", time: 203 },
+  { text: "Lucky for you,That's what I like.", time: 206 },
+  { text: "That's what I like.", time: 209 },
 
 ];
 
