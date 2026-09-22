@@ -4,7 +4,7 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de letras con los segundos reales dentro de la canción (desde 155 en adelante)
 var lyricsData = [
-  { text: "But here I am, baby. Here I am, baby.", time: 156 },
+  { text: "But here I am, baby. Here I am, baby.", time: 155 },
   { text: "What's on your mind?", time: 162 },
   { text: "If you want it, girl, come and get it.", time: 166 },
   { text: "All this is here for you.", time: 169 },
@@ -20,8 +20,8 @@ var lyricsData = [
   { text: "Silk sheets and diamonds all white", time: 196 },
   { text: "Lucky for you,That's what I like.", time: 197 },
   { text: "That's what I like.", time: 199 },
-  { text: "Lucky for you,That's what I like.", time: 201 },
-  { text: "That's what I like.", time: 203 },
+  { text: "Lucky for you,That's what I like.", time: 203 },
+  { text: "That's what I like.", time: 204 },
 
 ];
 
@@ -30,7 +30,7 @@ function updateLyrics() {
   var time = audio.currentTime;
   
   // Si la canción llega al segundo 203, la devolvemos al inicio del fragmento (segundo 155)
-  if (time >= 208) {
+  if (time >= 215) {
     audio.currentTime = 155;
     return;
   }
