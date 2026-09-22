@@ -1,21 +1,25 @@
-// Sincronizar las letras con la canción
+// Sincronizar las letras con la canción de Bruno Mars
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
 
-// Array con los tiempos y fragmentos de Bruno Mars - That's What I Like
+// Array de objetos con cada línea y su segundo exacto de aparición
 var lyricsData = [
   { text: "Hey, I got a condo in Manhattan", time: 6 },
   { text: "Baby girl, what's happening?", time: 10 },
+  { text: "You and your ass invited", time: 13 },
+  { text: "So gon' get to clapping", time: 15 },
+  { text: "Go pop it for me, pop it for me", time: 17 },
+  { text: "Turn around and drop it for me", time: 20 },
   { text: "Jump in the Cadillac", time: 36 },
   { text: "Girl, let's put some miles on it", time: 39 },
   { text: "Anything you want just to put a smile on it", time: 43 },
   { text: "You deserve it, baby, you deserve it", time: 47 },
+  { text: "Gold jewelry shine, it's so bright", time: 51 },
   { text: "Strawberry champagne", time: 54 },
   { text: "Lucky for you, that's what I like", time: 59 },
   { text: "That's what I like", time: 63 },
   { text: "Lucky for you, that's what I like", time: 67 },
   { text: "That's what I like", time: 71 },
-  // Puedes encontrar la letra completa y oficial buscando la canción en Google si deseas agregar más líneas.
 ];
 
 // Animar las letras
@@ -39,7 +43,7 @@ function updateLyrics() {
 
 setInterval(updateLyrics, 1000);
 
-// Función para ocultar el título
+// Función para ocultar el título (duración ajustada a la canción, ej. 211 segundos)
 function ocultarTitulo() {
   var titulo = document.querySelector(".titulo");
   titulo.style.animation = "fadeOut 3s ease-in-out forwards";
@@ -48,5 +52,4 @@ function ocultarTitulo() {
   }, 3000);
 }
 
-// Ocultar título a los 211 segundos (duración aproximada del video)
 setTimeout(ocultarTitulo, 211000);
