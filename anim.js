@@ -6,7 +6,7 @@ var lyrics = document.querySelector("#lyrics");
 var lyricsData = [
 
   { text: "Jump in the Cadillac", time: 35 },
-  { text: "Girl, let's put some miles on it", time: 35.5 },
+  { text: "Girl, let's put some miles on it", time: 35 },
   { text: "Anything you want just to put a smile on it", time: 37 },
   { text: "You deserve it, baby, you deserve it", time: 40 },
   { text: "And I'm going to give it to you", time: 44 },
