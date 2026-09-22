@@ -30,7 +30,7 @@ function updateLyrics() {
   var time = audio.currentTime;
   
   // Si la canción llega al segundo 203, la devolvemos al inicio del fragmento (segundo 155)
-  if (time >= 203) {
+  if (time >= 208) {
     audio.currentTime = 155;
     return;
   }
