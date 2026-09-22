@@ -15,13 +15,13 @@ var lyricsData = [
   { text: "Lucky for you,That's what I like.", time: 184 },
   { text: "That's what I like.", time: 186 },
   { text: "Lucky for you,That's what I like.", time: 188 },
-  { text: "That's what I like.", time: 188 },
+  { text: "That's what I like.", time: 190 },
   { text: "Sex by the fire at night", time: 193 },
   { text: "Silk sheets and diamonds all white", time: 196 },
   { text: "Lucky for you,That's what I like.", time: 197 },
   { text: "That's what I like.", time: 199 },
-  { text: "Lucky for you,That's what I like.", time: 203 },
-  { text: "That's what I like.", time: 204 },
+  { text: "Lucky for you,That's what I like.", time: 201 },
+  { text: "That's what I like.", time: 207 },
 
 ];
 
@@ -30,7 +30,7 @@ function updateLyrics() {
   var time = audio.currentTime;
   
   // Si la canción llega al segundo 203, la devolvemos al inicio del fragmento (segundo 155)
-  if (time >= 215) {
+  if (time >= 210) {
     audio.currentTime = 155;
     return;
   }
