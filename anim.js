@@ -4,23 +4,18 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos con cada línea y su segundo exacto de aparición
 var lyricsData = [
-  { text: "Hey, Hey, Hey", time: 3 },
-  { text: "I got a condo in Manhattan", time: 5 },
-  { text: "Baby girl, what's happening?", time: 6 },
-  { text: "You and your ass invited", time: 8 },
-  { text: "So gon' get to clapping", time: 10 },
-  { text: "Go pop it for me, pop it for me", time: 12 },
-  { text: "Turn around and drop it for me", time: 15 },
-  { text: "Jump in the Cadillac", time: 20 },
-  { text: "Girl, let's put some miles on it", time: 23 },
-  { text: "Anything you want just to put a smile on it", time: 26 },
-  { text: "You deserve it, baby, you deserve it", time: 29 },
-  { text: "Gold jewelry shine, it's so bright", time: 31 },
-  { text: "Strawberry champagne", time: 33 },
-  { text: "Lucky for you, that's what I like", time: 35 },
-  { text: "That's what I like", time: 37 },
-  { text: "Lucky for you, that's what I like", time: 40 },
-  { text: "That's what I like", time: 42 },
+
+  { text: "Jump in the Cadillac", time: 35 },
+  { text: "Girl, let's put some miles on it", time: 36 },
+  { text: "Anything you want just to put a smile on it", time: 38 },
+  { text: "You deserve it, baby, you deserve it", time: 40 },
+  { text: "Gold jewelry shine, it's so bright", time: 43 },
+  { text: "Strawberry champagne", time: 45 },
+  { text: "Lucky for you, that's what I like", time: 47 },
+  { text: "That's what I like", time: 49 },
+  { text: "Lucky for you, that's what I like", time: 52 },
+  { text: "That's what I like", time: 55 },
+  
 ];
 
 // Animar las letras
