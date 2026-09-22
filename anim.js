@@ -18,8 +18,8 @@ var lyricsData = [
   { text: "That's what I like.", time: 190 },
   { text: "Sex by the fire at night", time: 193 },
   { text: "Silk sheets and diamonds all white", time: 196 },
-  { text: "Lucky for you,That's what I like.", time: 198 },
-  { text: "That's what I like.", time: 204 },
+  { text: "Lucky for you,That's what I like.", time: 197 },
+  { text: "That's what I like.", time: 202 },
   
  
 
