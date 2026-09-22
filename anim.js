@@ -8,7 +8,7 @@ var lyricsData = [
   { text: "What's on your mind?", time: 162 },
   { text: "If you want it, girl, come and get it.", time: 166 },
   { text: "This is here for you.", time: 169 },
-  { text: "Tell me baby, tell me, tell me baby, time: 174 },
+  { text: "Tell me baby, tell me, tell me baby", time: 173 },
   { text: "what you trying to do?", time: 175 },
   { text: "Shining bright. Strawberry champagne for you.", time: 178 },
   { text: "That's what I like. That's what I like.", time: 180 },
