@@ -5,11 +5,11 @@ var lyrics = document.querySelector("#lyrics");
 // Array de objetos con cada línea y su segundo exacto de aparición
 var lyricsData = [
   { text: "Hey, I got a condo in Manhattan", time: 6 },
-  { text: "Baby girl, what's happening?", time: 10 },
-  { text: "You and your ass invited", time: 13 },
+  { text: "Baby girl, what's happening?", time: 9 },
+  { text: "You and your ass invited", time: 14 },
   { text: "So gon' get to clapping", time: 15 },
   { text: "Go pop it for me, pop it for me", time: 17 },
-  { text: "Turn around and drop it for me", time: 20 },
+  { text: "Turn around and drop it for me", time: 19 },
   { text: "Jump in the Cadillac", time: 36 },
   { text: "Girl, let's put some miles on it", time: 39 },
   { text: "Anything you want just to put a smile on it", time: 43 },
