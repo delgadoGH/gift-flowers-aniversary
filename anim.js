@@ -9,12 +9,15 @@ var lyricsData = [
   { text: "If you want it, girl, come and get it.", time: 166 },
   { text: "This is here for you.", time: 169 },
   { text: "Tell me baby, tell me, tell me baby", time: 173 },
-  { text: "what you trying to do?", time: 175 },
-  { text: "Cool jewelry Shining bright.", time: 177 },
-  { text: "Strawberry champagne for you.", time: 182 },
-  { text: "That's what I like. That's what I like.", time: 187 },
-  { text: "That's what I like by the fire and diamonds.", time: 191 },
-  { text: "I like it. That's why I like it.", time: 199 }
+  { text: "what you tryna do?", time: 175 },
+  { text: "Gold jewelry shining so bright.", time: 179 },
+  { text: "Strawberry champagne on ice", time: 182 },
+  { text: "Lucky for you,That's what I like.", time: 187 },
+  { text: "That's what I like.", time: 188 },
+  { text: "Lucky for you,That's what I like.", time: 189 },
+  { text: "That's what I like.", time: 190 },
+  { text: "That's what I like by the fire and diamonds.", time: 195 },
+  { text: "I like it. That's why I like it.", time: 202 }
 ];
 
 // Animar las letras
