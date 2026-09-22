@@ -4,15 +4,15 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de letras con los segundos reales dentro de la canción (desde 155 en adelante)
 var lyricsData = [
-  { text: "But here I am, baby. Here I am, baby.", time: 155 },
-  { text: "What's on your mind?", time: 160 },
-  { text: "If you want it, girl, come and get it.", time: 164 },
+  { text: "But here I am, baby. Here I am, baby.", time: 156 },
+  { text: "What's on your mind?", time: 162 },
+  { text: "If you want it, girl, come and get it.", time: 165 },
   { text: "This is here for you.", time: 169 },
-  { text: "Tell me baby, tell me, tell me baby, what you trying to do?", time: 173 },
-  { text: "Shining bright. Strawberry champagne for you.", time: 183 },
-  { text: "That's what I like. That's what I like.", time: 185 },
-  { text: "That's what I like by the fire and diamonds.", time: 195 },
-  { text: "I like it. That's why I like it.", time: 198 }
+  { text: "Tell me baby, tell me, tell me baby, what you trying to do?", time: 171 },
+  { text: "Shining bright. Strawberry champagne for you.", time: 176 },
+  { text: "That's what I like. That's what I like.", time: 180 },
+  { text: "That's what I like by the fire and diamonds.", time: 185 },
+  { text: "I like it. That's why I like it.", time: 192 }
 ];
 
 // Animar las letras
