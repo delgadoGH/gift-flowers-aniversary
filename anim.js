@@ -16,8 +16,15 @@ var lyricsData = [
   { text: "That's what I like.", time: 188 },
   { text: "Lucky for you,That's what I like.", time: 189 },
   { text: "That's what I like.", time: 190 },
-  { text: "That's what I like by the fire and diamonds.", time: 195 },
-  { text: "I like it. That's why I like it.", time: 202 }
+  { text: "Sex by the fire at night", time: 195 },
+  { text: "Silk sheets and diamonds all white", time: 199 },
+  { text: "Sex by the fire at night", time: 195 },
+  
+  { text: "Lucky for you,That's what I like.", time: 199 },
+  { text: "That's what I like.", time: 205 },
+  { text: "Lucky for you,That's what I like.", time: 210 },
+  { text: "That's what I like.", time: 215 },
+
 ];
 
 // Animar las letras
