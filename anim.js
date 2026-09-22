@@ -5,12 +5,12 @@ var lyrics = document.querySelector("#lyrics");
 // Array de objetos con cada línea y su segundo exacto de aparición
 var lyricsData = [
 
-  { text: "Jump in the Cadillac", time: 36 },
-  { text: "Girl, let's put some miles on it", time: 36 },
+  { text: "Jump in the Cadillac", time: 35 },
+  { text: "Girl, let's put some miles on it", time: 35.5 },
   { text: "Anything you want just to put a smile on it", time: 37 },
   { text: "You deserve it, baby, you deserve it", time: 40 },
-  { text: "And I'm going to give it to you", time: 42 },
-  { text: "Cool jewelry shine, it's so bright", time: 43 },
+  { text: "And I'm going to give it to you", time: 44 },
+  { text: "Cool jewelry shine, it's so bright", time: 45 },
   { text: "Strawberry champagne", time: 45 },
   { text: "Lucky for you, that's what I like", time: 47 },
   { text: "That's what I like", time: 49 },
