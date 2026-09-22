@@ -1,29 +1,31 @@
-// Sincronizar las letras con la canción de Bruno Mars
+// Sincronizar las letras con el nuevo fragmento de la canción
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
 
-// Array de objetos con cada línea y su segundo exacto de aparición
+// Array de letras ajustado para este fragmento (2:35 a 3:22)
 var lyricsData = [
-
-  { text: "Jump in the Cadillac", time: 35 },
-  { text: "Girl, let's put some miles on it", time: 35 },
-  { text: "Anything you want just to put a smile on it", time: 37 },
-  { text: "You deserve it, baby, you deserve it", time: 40 },
-  { text: "And I'm going to give it to you", time: 44 },
-  { text: "Cool jewelry shine, it's so bright", time: 45 },
-  { text: "Strawberry champagne", time: 45 },
-  { text: "Lucky for you, that's what I like", time: 47 },
-  { text: "That's what I like", time: 49 },
-  { text: "Lucky for you, that's what I like", time: 52 },
-  { text: "That's what I like", time: 55 },
-  
+  { text: "But here I am, baby. Here I am, baby.", time: 0 },
+  { text: "What's on your mind?", time: 10 },
+  { text: "If you want it, girl, come and get it.", time: 13 },
+  { text: "This is here for you.", time: 17 },
+  { text: "Tell me baby, tell me, tell me baby, what you trying to do?", time: 21 },
+  { text: "Shining bright. Strawberry champagne for you.", time: 30 },
+  { text: "That's what I like. That's what I like.", time: 34 },
+  { text: "That's what I like by the fire and diamonds.", time: 42 },
+  { text: "I like it. That's why I like it.", time: 47 }
 ];
 
 // Animar las letras
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
+  
+  // Si la canción llega al segundo 203 (minuto 3:23), la devolvemos al inicio del fragmento (segundo 155)
+  if (time >= 203) {
+    audio.currentTime = 155;
+  }
+
   var currentLine = lyricsData.find(
-    (line) => time >= line.time && time < line.time + 6
+    (line) => time >= line.time && time < line.time + 4
   );
 
   if (currentLine) {
@@ -40,13 +42,15 @@ function updateLyrics() {
 
 setInterval(updateLyrics, 1000);
 
-// Función para ocultar el título (duración ajustada a la canción, ej. 211 segundos)
+// Función para ocultar el título inicial
 function ocultarTitulo() {
   var titulo = document.querySelector(".titulo");
-  titulo.style.animation = "fadeOut 3s ease-in-out forwards";
-  setTimeout(function () {
-    titulo.style.display = "none";
-  }, 3000);
+  if (titulo) {
+    titulo.style.animation = "fadeOut 3s ease-in-out forwards";
+    setTimeout(function () {
+      titulo.style.display = "none";
+    }, 3000);
+  }
 }
 
-setTimeout(ocultarTitulo, 211000);
+setTimeout(ocultarTitulo, 10000);
