@@ -15,13 +15,13 @@ var lyricsData = [
   { text: "Lucky for you,That's what I like.", time: 184 },
   { text: "That's what I like.", time: 186 },
   { text: "Lucky for you,That's what I like.", time: 188 },
-  { text: "That's what I like.", time: 190 },
+  { text: "That's what I like.", time: 188 },
   { text: "Sex by the fire at night", time: 193 },
   { text: "Silk sheets and diamonds all white", time: 196 },
-  { text: "Lucky for you,That's what I like.", time: 198 },
+  { text: "Lucky for you,That's what I like.", time: 197 },
+  { text: "That's what I like.", time: 199 },
+  { text: "Lucky for you,That's what I like.", time: 201 },
   { text: "That's what I like.", time: 203 },
-  { text: "Lucky for you,That's what I like.", time: 206 },
-  { text: "That's what I like.", time: 208 },
 
 ];
 
