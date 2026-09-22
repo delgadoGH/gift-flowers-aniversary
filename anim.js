@@ -10,10 +10,11 @@ var lyricsData = [
   { text: "This is here for you.", time: 169 },
   { text: "Tell me baby, tell me, tell me baby", time: 173 },
   { text: "what you trying to do?", time: 175 },
-  { text: "Shining bright. Strawberry champagne for you.", time: 178 },
+  { text: "Cool jewelry Shining bright.", time: 177 },
+  { text: "Strawberry champagne for you.", time: 178 },
   { text: "That's what I like. That's what I like.", time: 180 },
-  { text: "That's what I like by the fire and diamonds.", time: 186 },
-  { text: "I like it. That's why I like it.", time: 192 }
+  { text: "That's what I like by the fire and diamonds.", time: 184 },
+  { text: "I like it. That's why I like it.", time: 188 }
 ];
 
 // Animar las letras
