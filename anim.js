@@ -4,8 +4,8 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos con cada línea y su segundo exacto de aparición
 var lyricsData = [
-  { text: "Hey, Hey, Hey", time: 2 },
-  { text: "I got a condo in Manhattan", time: 4 },
+  { text: "Hey, Hey, Hey", time: 3 },
+  { text: "I got a condo in Manhattan", time: 5 },
   { text: "Baby girl, what's happening?", time: 6 },
   { text: "You and your ass invited", time: 8 },
   { text: "So gon' get to clapping", time: 10 },
